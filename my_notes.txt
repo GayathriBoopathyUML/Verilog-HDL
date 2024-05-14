@@ -1,0 +1,50 @@
+ADDER -->
+Add all files in Quartus 
+adder.v
+half_adder.v
+tb_adder.v
+
+Tools --> RTL
+ModelSim
+1. vlog ../../*.v
+2. vsim -novopt tb_adder
+3. run -all
+4. (add all waves)
+5. restart -f
+6. run -all
+7. View waves
+
+
+
+SUBTRACTOR -->
+Add all files in Quartus 
+subtractor.v
+half_subtractor.v
+tb_subtractor.v
+
+Tools --> RTL
+ModelSim
+1. vlog ../../*.v
+2. vsim -novopt tb_subtractor
+3. run -all
+4. (add all waves)
+5. restart -f
+6. run -all
+7. View waves
+
+
+
+MUX8X1 -->
+Add all files in Quartus 
+mux8x1.sv
+testbench_mux8x1.sv
+
+Tools --> RTL
+ModelSim
+1. vlog ../../*.sv
+2. vsim -novopt testbench_mux8x1
+3. run -all
+4. (add all waves)
+5. restart -f
+6. run -all
+7. View waves
